@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let softTime = 5
+    let mediumTime = 7
+    let hardTime = 12
+    
+    //let timer = Timer.scheduledTimer(timeInterval: 5.0, invocation: NSInvocation, repeats: true)
+    
 
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
